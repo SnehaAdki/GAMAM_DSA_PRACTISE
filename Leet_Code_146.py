@@ -1,4 +1,3 @@
-# LeetCode
 # DP
 # https://leetcode.com/problems/lru-cache/?source=submission-ac
 # 146. LRU Cache
