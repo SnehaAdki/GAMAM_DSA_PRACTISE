@@ -1,5 +1,6 @@
 # DP
-# 287. 
+# https://leetcode.com/problems/find-the-duplicate-number/
+# Leet Code 287. 
 # Find the Duplicate Number
 # Solved
 # Medium
