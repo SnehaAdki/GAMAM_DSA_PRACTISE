@@ -1,3 +1,6 @@
+# DP
+# https://leetcode.com/problems/valid-parentheses/submissions/1751671944/
+# Leet Code 20
 # 20. Valid Parentheses
 # Solved
 # Easy
