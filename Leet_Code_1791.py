@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/find-center-of-star-graph/?envType=problem-list-v2&envId=graph 
+# https://leetcode.com/problems/find-center-of-star-graph/submissions/1827077482/?envType=problem-list-v2&envId=graph
 # solution 1 
 # Leet code 1791
 # 1791. Find Center of Star Graph
@@ -46,5 +47,18 @@ def findCenter(nodes):
     # print(hash_map)
     # print(center_node)
 
-edges = [[1,2],[2,3],[4,2]]
-print(findCenter(edges))
+# edges = [[1,2],[2,3],[4,2]]
+# print(findCenter(edges))
+
+
+
+def sol2():
+    nodes = [[1,2],[2,3],[4,2]]
+    node1 = nodes[0] #[1,2]
+    node2 = nodes[1] #[2,3]
+    if node1[0] == node2[0] or node1[0] == node2[1]:
+        return node1[0]
+    if node1[1] == node2[1] or node1[1] == node2[0]:
+        return node1[1]
+
+print(sol2())
